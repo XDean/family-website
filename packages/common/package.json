@@ -1,4 +1,13 @@
 {
   "name": "@xdean/family-website-common",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
